@@ -4,7 +4,7 @@
 
 OUTPUT_DIR="/var/www/html"
 TIMESTAMP=$(date '+%Y%m%d')
-OUTPUT_FILE="$(hostname)/ssl_report.html"
+OUTPUT_FILE="${OUTPUT_DIR}/ssl_report.html"
 LE_SCRIPT="/usr/local/directadmin/scripts/letsencrypt.sh"
 DA_TASK_QUEUE="/usr/local/directadmin/data/task.queue"
 DA_TASK_QUEUE_CB="/usr/local/directadmin/data/task.queue.cb"
