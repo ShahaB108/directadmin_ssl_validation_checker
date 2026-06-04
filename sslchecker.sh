@@ -283,3 +283,4 @@ da build rewrite_confs
 
 log "🏁 Done. Issued: $total_success | Failed: $total_failed | Has SSL: $total_skip_ssl | IP mismatch: $total_skip_ip"
 log "🏁 Report: $OUTPUT_FILE"
+log "🏁 Link: $(hostname)/ssl_report.html"
